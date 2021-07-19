@@ -73,9 +73,10 @@ EQUB    $00,$01,$00,$01,$01,$80,$80,$80
     BIT joystickFlag
     BPL over
     JMP ShipKeyboard
+    ; Return
 .over
     JMP ShipJoystick
-    RTS
+    ; Return
 }
 
 ;-------------------------------------------------------------------------
