@@ -811,12 +811,12 @@ GUARD &3000
     RTS
 }
 
-include "ship.6502"
-include "zappers.6502"
-include "pods.6502"
-include "bombs.6502"
-include "droids.6502"
-include "highscore.6502"
+include "ship.asm"
+include "zappers.asm"
+include "pods.asm"
+include "bombs.asm"
+include "droids.asm"
+include "highscore.asm"
 
 ;-------------------------------------------------------------------------
 ; AddScore100's
